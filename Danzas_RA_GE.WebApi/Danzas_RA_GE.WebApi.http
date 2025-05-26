@@ -1,0 +1,6 @@
+@Danzas_RA_GE.WebApi_HostAddress = http://localhost:5258
+
+GET {{Danzas_RA_GE.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

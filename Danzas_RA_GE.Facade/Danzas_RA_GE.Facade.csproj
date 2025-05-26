@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Danzas_RA_GE.BusinessObject\Danzas_RA_GE.BusinessObjects.csproj" />
+    <ProjectReference Include="..\Danzas_RA_GE.DataObjects\Danzas_RA_GE.DataObjects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibreriaNet.v3">
+      <HintPath>..\Libreria\LibreriaNet.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="LibreriaNetCore.v1">
+      <HintPath>..\Libreria\LibreriaNetCore.v1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
